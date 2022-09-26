@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <script defer src="index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Localizador de ciudades/clima</h1>
+        <div id="buscador">
+            <label  for="ciudad">Elija Ciudad:</label>
+            <select id="ciudad"></select>
+        </div>
+    </header>
+    <article>
+        <div id="weathermap"></div>
+        
+        <div id="pronostico">
+            <!-- Aqui va el pronostico sacado de OpenWeatherMap -->
+            <div id="icono"></div>
+            <div id="respuesta">
+                <div>
+                    <label for="eleccion">Ciudad:</label>
+                    <span id="eleccion"></span>
+                </div>
+                <div>
+                    <label for="longitud">Longitud:</label>
+                    <span id="longitud"></span>
+                </div>
+                <div>
+                    <label for="latitud">Latitud:</label>
+                    <span id="latitud"></span>
+                </div>
+            </div>
+            <div id="clima"></div>
+    </article>
+</body>
+
+</html>
