@@ -9,6 +9,7 @@ header {
     color: red;
     font-size: x-large;
     font-weight: bolder; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       
 }
 header>h1{
@@ -63,16 +64,29 @@ article {
 #respuesta>div, #clima>div{
     padding-top: 2%;
 }
+
 #buscador>label{
     color: rgb(255, 0, 0);
-    font-size: x-large;
+    font-size: xx-large;
 }
-
-
-
 
 #icono>img{
     width: 30%;
+}
+
+footer {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background-color: rgb(83, 255, 255);
+    border-color: blue;
+    color: red;
+    font-size: x-large;
+    font-weight: bolder; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @media (max-width: 630px) {
